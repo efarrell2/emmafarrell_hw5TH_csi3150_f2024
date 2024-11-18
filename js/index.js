@@ -140,7 +140,7 @@ const usedCars = [
 function createProductCards(){
     for (i=0; i<usedCars.length; i++) {
         const {year, make, model, mileage, price, color, gasMileage} = usedCars[i];
-        let picture = "../assets/"+model+".jfif";
+        let picture = "../assets/"+model+".jpeg";
         let title = year+" "+make+" "+model;
         let miles = mileage+" miles";
         let money = "$"+price;
@@ -262,7 +262,7 @@ document.addEventListener("DOMContentLoaded", () => {
     for (i = 0; i < filterCars.length; i++) {
       const { year, make, model, mileage, price, color, gasMileage } =
         filterCars[i];
-      let picture = "../assets/" + model + ".jfif";
+      let picture = "../assets/" + model + ".jpeg";
       let title = year + " " + make + " " + model;
       let miles = mileage + " miles";
       let money = "$" + price;
